@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{325BF418-9AF9-4172-82C4-DB367B9C9C65}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Classes</RootNamespace>
+    <AssemblyName>Classes</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <HintPath>..\packages\CrystalDecisions.CrystalReports.Engine.1.0.0\lib\CrystalDecisions.CrystalReports.Engine.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Database">
+      <HintPath>..\Database\bin\Debug\Database.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net40\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlAgilityPack">
+      <HintPath>..\Web\bin\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.1, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.13.1\lib\itextsharp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\Web\bin\Microsoft.Office.Interop.Word.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Vbe.Interop, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\Web\bin\Microsoft.Vbe.Interop.dll</HintPath>
+    </Reference>
+    <Reference Include="office, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\Web\bin\office.dll</HintPath>
+    </Reference>
+    <Reference Include="SaasHelper">
+      <HintPath>..\..\EcomNew\ACM\ACM\SaasBAL\bin\Debug\SaasHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity.Design" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Entity.Design" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Extensions.Design" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="VisualStudio.SpellChecker.Definitions">
+      <HintPath>..\packages\EWSoftware.VSSpellChecker.2015.9.19.0\lib\net40\VisualStudio.SpellChecker.Definitions.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ACMClass.cs" />
+    <Compile Include="BasePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ClsActivities.cs" />
+    <Compile Include="ClsDepartments.cs" />
+    <Compile Include="ClsRoles.cs" />
+    <Compile Include="ClsSystemUsers.cs" />
+    <Compile Include="Common.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="CRMClass.cs" />
+    <Compile Include="ACMDelete.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="CsICITEMS_PRICE.cs" />
+    <Compile Include="CsIcUom.cs" />
+    <Compile Include="Csplanmealcustinvoice.cs" />
+    <Compile Include="CsplanmealcustinvoiceHD.cs" />
+    <Compile Include="Csplanmealsetup.cs" />
+    <Compile Include="CsPlanmealsetups.cs" />
+    <Compile Include="CsREFTABLE.cs" />
+    <Compile Include="CstblCityStatesCounty.cs" />
+    <Compile Include="CsTBLCOMPANYSETUP.cs" />
+    <Compile Include="CsTBLCONTACT.cs" />
+    <Compile Include="CstblCOUNTRY.cs" />
+    <Compile Include="CstblLanguage.cs" />
+    <Compile Include="CsTBLLOCATION.cs" />
+    <Compile Include="CstblPRODUCT.cs" />
+    <Compile Include="CstblProduct_Plan.cs" />
+    <Compile Include="CstblStates.cs" />
+    <Compile Include="Cstbl_Cart_Mst.cs" />
+    <Compile Include="CsTbl_Multi_Color_Size_Mst.cs" />
+    <Compile Include="CsUserMst.cs" />
+    <Compile Include="CsWin_mycompanysetup_winapp.cs" />
+    <Compile Include="CsWin_purchase.cs" />
+    <Compile Include="CsWin_return_item.cs" />
+    <Compile Include="CsWin_sales_item.cs" />
+    <Compile Include="DAL.cs" />
+    <Compile Include="EcommAdminClass.cs" />
+    <Compile Include="EcommUserClass.cs" />
+    <Compile Include="EncryptionClass.cs" />
+    <Compile Include="GlobleClass.cs" />
+    <Compile Include="lpo.cs" />
+    <Compile Include="POSSynchronization.cs" />
+    <Compile Include="PostProcess.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SQLHelper.cs" />
+    <Compile Include="Toastr.cs" />
+    <Compile Include="Transaction.cs" />
+    <Compile Include="TransationTableSync.cs" />
+    <Compile Include="WinPOS.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,55 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="Table1">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="ID" type="xs:int" minOccurs="0" />
+        <xs:element name="TENANT_ID" type="xs:int" minOccurs="0" />
+        <xs:element name="MYTRANSID" type="xs:decimal" minOccurs="0" />
+        <xs:element name="MYID" type="xs:int" minOccurs="0" />
+        <xs:element name="MyProdID" type="xs:string" minOccurs="0" />
+        <xs:element name="REFTYPE" type="xs:string" minOccurs="0" />
+        <xs:element name="REFSUBTYPE" type="xs:string" minOccurs="0" />
+        <xs:element name="PERIOD_CODE" type="xs:string" minOccurs="0" />
+        <xs:element name="MYSYSNAME" type="xs:string" minOccurs="0" />
+        <xs:element name="JOID" type="xs:int" minOccurs="0" />
+        <xs:element name="JOBORDERDTMYID" type="xs:int" minOccurs="0" />
+        <xs:element name="ACTIVITYID" type="xs:int" minOccurs="0" />
+        <xs:element name="ITEMID" type="xs:string" minOccurs="0" />
+        <xs:element name="DESCRIPTION" type="xs:string" minOccurs="0" />
+        <xs:element name="UOM" type="xs:string" minOccurs="0" />
+        <xs:element name="QUANTITY" type="xs:int" minOccurs="0" />
+        <xs:element name="OVERHEADAMOUNT" type="xs:decimal" minOccurs="0" />
+        <xs:element name="BATCHNO" type="xs:string" minOccurs="0" />
+        <xs:element name="BIN_ID" type="xs:int" minOccurs="0" />
+        <xs:element name="BIN_TYPE" type="xs:string" minOccurs="0" />
+        <xs:element name="GRNREF" type="xs:string" minOccurs="0" />
+        <xs:element name="DISPER" type="xs:decimal" minOccurs="0" />
+        <xs:element name="DISAMT" type="xs:decimal" minOccurs="0" />
+        <xs:element name="TaxPER" type="xs:decimal" minOccurs="0" />
+        <xs:element name="TaxAMT" type="xs:decimal" minOccurs="0" />
+        <xs:element name="PROMOTIONAMT" type="xs:decimal" minOccurs="0" />
+        <xs:element name="UNITPRICE_FOREIGN" type="xs:decimal" minOccurs="0" />
+        <xs:element name="UNITPRICE_LOCAL" type="xs:decimal" minOccurs="0" />
+        <xs:element name="TOTALAMT_FOREIGN" type="xs:decimal" minOccurs="0" />
+        <xs:element name="TOTALAMT_LOCAL" type="xs:decimal" minOccurs="0" />
+        <xs:element name="GLPOST" type="xs:string" minOccurs="0" />
+        <xs:element name="GLPOST1" type="xs:string" minOccurs="0" />
+        <xs:element name="GLPOSTREF1" type="xs:string" minOccurs="0" />
+        <xs:element name="GLPOSTREF" type="xs:string" minOccurs="0" />
+        <xs:element name="ICPOST" type="xs:string" minOccurs="0" />
+        <xs:element name="ICPOSTREF" type="xs:string" minOccurs="0" />
+        <xs:element name="EXPIRYDATE" type="xs:dateTime" minOccurs="0" />
+        <xs:element name="CRUP_ID" type="xs:int" minOccurs="0" />
+        <xs:element name="Operation" type="xs:int" minOccurs="0" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table1" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="Table1" />
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

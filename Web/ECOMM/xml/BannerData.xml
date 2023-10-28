@@ -1,0 +1,199 @@
+<?xml version="1.0" standalone="yes"?>
+<Banner>
+  <Table>
+    <TenantID>1</TenantID>
+    <BannerID>1</BannerID>
+    <BannerType>12345</BannerType>
+    <BannerName>Test12</BannerName>
+    <BannerText1>Test</BannerText1>
+    <BannerText2>Test</BannerText2>
+    <BannerText3>Test</BannerText3>
+    <BannerImage>bg.jpg</BannerImage>
+    <isMultiBanner>true</isMultiBanner>
+    <Active>true</Active>
+    <IntervalMinutes>2</IntervalMinutes>
+  </Table>
+  <Table>
+    <TenantID>1</TenantID>
+    <BannerID>2</BannerID>
+    <BannerType>12346</BannerType>
+    <BannerName>Top Right</BannerName>
+    <BannerText1>Top Right</BannerText1>
+    <BannerText2>Top Right</BannerText2>
+    <BannerText3>Top Right</BannerText3>
+    <BannerImage>Insta1.jpg</BannerImage>
+    <isMultiBanner>false</isMultiBanner>
+    <Active>true</Active>
+    <IntervalMinutes>4</IntervalMinutes>
+  </Table>
+  <Table>
+    <TenantID>1</TenantID>
+    <BannerID>4</BannerID>
+    <BannerType>12347</BannerType>
+    <BannerName>Top Righ 391*249</BannerName>
+    <BannerText1>Top Righ 391*249</BannerText1>
+    <BannerText2>Top Righ 391*249</BannerText2>
+    <BannerText3>Top Righ 391*249</BannerText3>
+    <BannerImage>Insta3.jpg</BannerImage>
+    <isMultiBanner>false</isMultiBanner>
+    <Active>true</Active>
+    <IntervalMinutes>6</IntervalMinutes>
+  </Table>
+  <Table>
+    <TenantID>1</TenantID>
+    <BannerID>5</BannerID>
+    <BannerType>12348</BannerType>
+    <BannerName>Bottom Rignt</BannerName>
+    <BannerText1>Bottom Rignt</BannerText1>
+    <BannerText2>Bottom Rignt</BannerText2>
+    <BannerText3>Bottom Rignt</BannerText3>
+    <BannerImage>Insta4.jpg</BannerImage>
+    <isMultiBanner>false</isMultiBanner>
+    <Active>true</Active>
+    <IntervalMinutes>2</IntervalMinutes>
+  </Table>
+  <Table>
+    <TenantID>1</TenantID>
+    <BannerID>6</BannerID>
+    <BannerType>12349</BannerType>
+    <BannerName>By Categary</BannerName>
+    <BannerText1>By Categary</BannerText1>
+    <BannerText2>By Categary</BannerText2>
+    <BannerText3>By Categary</BannerText3>
+    <BannerImage>651 summer men bag 1.jpg</BannerImage>
+    <isMultiBanner>false</isMultiBanner>
+    <Active>true</Active>
+    <IntervalMinutes>2</IntervalMinutes>
+  </Table>
+  <Table>
+    <TenantID>1</TenantID>
+    <BannerID>7</BannerID>
+    <BannerType>12350</BannerType>
+    <BannerName>By Brand</BannerName>
+    <BannerText1>By Brand</BannerText1>
+    <BannerText2>By Brand</BannerText2>
+    <BannerText3>By Brand</BannerText3>
+    <BannerImage>908-1 1.jpg</BannerImage>
+    <isMultiBanner>false</isMultiBanner>
+    <Active>true</Active>
+    <IntervalMinutes>2</IntervalMinutes>
+  </Table>
+  <Table>
+    <TenantID>1</TenantID>
+    <BannerID>8</BannerID>
+    <BannerType>12351</BannerType>
+    <BannerName>by Domain</BannerName>
+    <BannerText1>by Domain</BannerText1>
+    <BannerText2>by Domain</BannerText2>
+    <BannerText3>by Domain</BannerText3>
+    <BannerImage>8870-3.jpg</BannerImage>
+    <isMultiBanner>false</isMultiBanner>
+    <Active>true</Active>
+    <IntervalMinutes>2</IntervalMinutes>
+  </Table>
+  <Table>
+    <TenantID>1</TenantID>
+    <BannerID>9</BannerID>
+    <BannerType>12352</BannerType>
+    <BannerName>Product List</BannerName>
+    <BannerText1>Product List</BannerText1>
+    <BannerText2>Product List</BannerText2>
+    <BannerText3>Product List</BannerText3>
+    <BannerImage>8895-4 4.jpg</BannerImage>
+    <isMultiBanner>false</isMultiBanner>
+    <Active>true</Active>
+    <IntervalMinutes>2</IntervalMinutes>
+  </Table>
+  <Table>
+    <TenantID>1</TenantID>
+    <BannerID>10</BannerID>
+    <BannerType>12345</BannerType>
+    <BannerName>TOp Left Banner2</BannerName>
+    <BannerText1>TOp Left Banner2</BannerText1>
+    <BannerText2>TOp Left Banner2</BannerText2>
+    <BannerText3>TOp Left Banner2</BannerText3>
+    <BannerImage>bg2.jpg</BannerImage>
+    <isMultiBanner>true</isMultiBanner>
+    <Active>true</Active>
+    <IntervalMinutes>2</IntervalMinutes>
+  </Table>
+  <Table>
+    <TenantID>1</TenantID>
+    <BannerID>11</BannerID>
+    <BannerType>12345</BannerType>
+    <BannerName>Top Left Banner 3</BannerName>
+    <BannerText1>Top Left Banner 3</BannerText1>
+    <BannerText2>Top Left Banner 3</BannerText2>
+    <BannerText3>Top Left Banner 3</BannerText3>
+    <BannerImage>bg3.jpg</BannerImage>
+    <isMultiBanner>true</isMultiBanner>
+    <Active>true</Active>
+    <IntervalMinutes>2</IntervalMinutes>
+  </Table>
+  <Table>
+    <TenantID>1</TenantID>
+    <BannerID>12</BannerID>
+    <BannerType>12345</BannerType>
+    <BannerName>Top Left Banner 4</BannerName>
+    <BannerText1>Top Left Banner 4</BannerText1>
+    <BannerText2>Top Left Banner 4</BannerText2>
+    <BannerText3>Top Left Banner 4</BannerText3>
+    <BannerImage>bg4.jpg</BannerImage>
+    <isMultiBanner>true</isMultiBanner>
+    <Active>true</Active>
+    <IntervalMinutes>2</IntervalMinutes>
+  </Table>
+  <Table>
+    <TenantID>1</TenantID>
+    <BannerID>13</BannerID>
+    <BannerType>12346</BannerType>
+    <BannerName>Top Right</BannerName>
+    <BannerText1>Top Right</BannerText1>
+    <BannerText2>Top Right</BannerText2>
+    <BannerText3>Top Right</BannerText3>
+    <BannerImage>slide1.jpg</BannerImage>
+    <isMultiBanner>false</isMultiBanner>
+    <Active>true</Active>
+    <IntervalMinutes>2</IntervalMinutes>
+  </Table>
+  <Table>
+    <TenantID>1</TenantID>
+    <BannerID>14</BannerID>
+    <BannerType>12347</BannerType>
+    <BannerName>Top Righ 391*249</BannerName>
+    <BannerText1>Top Righ 391*249</BannerText1>
+    <BannerText2>Top Righ 391*249</BannerText2>
+    <BannerText3>Top Righ 391*249</BannerText3>
+    <BannerImage>slide2.jpg</BannerImage>
+    <isMultiBanner>false</isMultiBanner>
+    <Active>true</Active>
+    <IntervalMinutes>2</IntervalMinutes>
+  </Table>
+  <Table>
+    <TenantID>1</TenantID>
+    <BannerID>15</BannerID>
+    <BannerType>12348</BannerType>
+    <BannerName>Bottom Rignt</BannerName>
+    <BannerText1>Bottom Rignt</BannerText1>
+    <BannerText2>Bottom Rignt</BannerText2>
+    <BannerText3>Bottom Rignt</BannerText3>
+    <BannerImage>slide1.jpg</BannerImage>
+    <isMultiBanner>false</isMultiBanner>
+    <Active>true</Active>
+    <IntervalMinutes>2</IntervalMinutes>
+  </Table>
+  <Table>
+    <TenantID>1</TenantID>
+    <BannerID>16</BannerID>
+    <BannerType>12348</BannerType>
+    <BannerName>Bottom Rignt</BannerName>
+    <BannerText1>Bottom Rignt</BannerText1>
+    <BannerText2>Bottom Rignt</BannerText2>
+    <BannerText3>Bottom Rignt</BannerText3>
+    <BannerImage>slide2.jpg</BannerImage>
+    <isMultiBanner>false</isMultiBanner>
+    <Active>true</Active>
+    <IntervalMinutes>2</IntervalMinutes>
+  </Table>
+  
+</Banner>

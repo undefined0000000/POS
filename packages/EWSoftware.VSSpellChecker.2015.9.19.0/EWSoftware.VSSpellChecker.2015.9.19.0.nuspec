@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>EWSoftware.VSSpellChecker</id>
+    <version>2015.9.19.0</version>
+    <title>EWSoftware Visual Studio Spell Checker Definitions</title>
+    <authors>Eric Woodruff</authors>
+    <owners>Eric Woodruff</owners>
+    <licenseUrl>https://github.com/EWSoftware/VSSpellChecker/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/EWSoftware/VSSpellChecker</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/EWSoftware/VSSpellChecker/master/NuGet/VSSpellChecker.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This package contains the definitions assembly used to create third party taggers that can be integrated with the EWSoftware Visual Studio Spell Checker.</description>
+    <summary />
+    <copyright>Eric Woodruff (c) 2013-2015</copyright>
+    <tags>Visual Studio spell checker integration</tags>
+  </metadata>
+</package>

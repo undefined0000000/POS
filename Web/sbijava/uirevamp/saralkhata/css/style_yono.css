@@ -1,0 +1,46 @@
+@import "main_yono.css";
+.staticpagetable th{
+	background-color:#eee;
+}
+.lower-alpha-type{
+	list-style-type: lower-alpha;
+}
+.lower-roman-type{
+	list-style-type: lower-roman;
+}
+/* new styles - below */
+@media (min-width: 320px) and (max-width: 767px) {
+
+
+.lhn #navbar  .active{
+	background: #1b75bc;
+}
+
+
+#navbar .dropdown .mlinktrig-caret{
+    transition: all 1s linear;
+}
+
+#navbar .dropdown .mlinktrig-caret.down{
+    transform:rotate(90deg);
+}
+}
+
+.scrollbox1 {
+    height: 216px;
+    overflow: auto;
+}
+@media (min-width: 767px) {
+.lhn a{
+	min-height:5px !important;
+}
+#navbar ul li ul {
+	position: absolute;
+}
+#navbar li ul li a {
+	text-align: left !important;
+}
+}
+
+
+

@@ -1,0 +1,1306 @@
+@font-face {
+    font-family: 'effra';
+    src: url('https://corp.onlinesbi.com/sbijava/uirevamp/saralkhata/fonts/Effra_Std_Rg.eot');
+    /* IE9 Compat Modes */
+    src: url('https://corp.onlinesbi.com/sbijava/uirevamp/saralkhata/fonts/Effra_Std_Rg.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('https://corp.onlinesbi.com/sbijava/uirevamp/saralkhata/fonts/Effra_Std_Rg.woff2') format('woff2'), /* Super Modern Browsers */
+    url('https://corp.onlinesbi.com/sbijava/uirevamp/saralkhata/fonts/Effra_Std_Rg.woff') format('woff'), /* Pretty Modern Browsers */
+    url('https://corp.onlinesbi.com/sbijava/uirevamp/saralkhata/fonts/Effra_Std_Rg.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('https://corp.onlinesbi.com/sbijava/uirevamp/saralkhata/fonts/Effra_Std_Rg.svg#svgFontName') format('svg');
+    /* Legacy iOS */
+}
+
+body{
+	/* background: #f6f6f6; */
+	margin:0;
+	font-size:13px;
+	color:#555;
+	font-family: Effra, Regular !important;
+	font-style: normal;
+}
+a{
+	color: #5553AA;
+}
+a:hover
+{
+	color: #7D7CBF;
+	text-decoration: none;
+}
+a:focus{color:#414082;}
+
+.bdr{
+	border:1px solid red
+}
+
+#shawdow{
+	margin:0 auto;
+	background:url("../images/body-shawdow.png") repeat-y bottom center;
+}
+
+#wrapper{
+	position:relative; 
+	/*z-index:10;*/
+	/* background: #f6f6f6; */
+	box-shadow: 0px 0px 10px #cfcfcf; 
+}
+	
+/*----- Grouping -----*/
+
+#logo,#osbi_logo,.arrow{
+	background-repeat:no-repeat;
+}
+
+#logo,#osbi_logo,.arrow{
+	background-image: url("../images/logo_sprite.png");
+}
+
+.col-comn,.nav-comn{
+	padding:0;
+}
+
+/*----- Grouping Ends-----*/
+
+header{
+	background:#fff;
+	overflow:hidden;
+	padding:10px 0;
+}
+
+#logo{
+	/* background-position: -278px -122px;
+	width:100px;
+	height:54px;
+	display:block; */
+	background-image: url(../images/sprite_icon_yono.png);
+    display: block;
+    height: 45px;
+    background-position: 0px -6px;
+}
+
+#osbi_logo{
+	background-position: -178px -9px;
+	width:73px;
+	height:50px;
+	float:right;
+}
+
+#logo:hover,#osbi_logo:hover,.arrow:hover{
+	text-decoration:none;
+}
+
+#header_navigation{
+	overflow:hidden;
+	float:right;
+	margin:17px 20px 0 0;
+}
+
+#forms, #header_links{
+	padding:0;
+	margin:0;
+	overflow:hidden;
+	list-style:none;
+}
+
+#forms li{
+	float:left;
+	margin:0 10px 0 0;
+	border-right:1px solid #c1c1c1;
+}
+
+#forms li:last-child{
+	border-right:0;
+	margin-right:0;
+}
+
+#forms li a{
+	text-decoration: none;
+    color: #5553AA;
+    font-size: 13px;
+    vertical-align: middle;
+    text-align: center;
+    font-family: "Effra", Regular;
+    padding: 0px 10px;
+}
+#forms li a:hover{
+    color: #7D7CBF;
+}
+
+#forms li a.last{
+	margin-right:0;
+}
+
+#primary_navigation .navbar-default{
+	border:0;
+	/* background:#280071 !important; */
+	  /* background: linear-gradient(to right, #ff2c47 , #a71a59, #530969, #280071) !important; */
+	  background:linear-gradient(to right, #a71a59,#530969,#280071 ) !important;
+}
+
+#primary_navigation .navbar{
+	border-radius:0;
+	margin:0;
+	min-height:auto;
+}
+
+#navigation {
+	list-style:none;
+	padding:0;
+	margin:0;	
+}
+
+#navigation li{
+	float:left;
+	padding:0;
+}
+
+#navigation li a{
+	color:#fff;
+    display:block;
+    font-size:13px;
+	font-weight:bold;
+    text-align:center;
+    text-decoration:none;
+	padding:12px 26px;
+}
+
+#navigation li a.active, #navigation li a:hover{
+	background-color:#5553AA;
+	box-shadow:inset 0 8px 10px -8px #1764a0;
+}
+
+#navigation li.navbar-right{
+	margin-right:0;
+}
+
+#navigation:after{
+	content:"";
+	display:block;
+	clear:both;
+	visibility:hidden;
+	line-height:0;
+	height:0;
+}
+
+#primary_navigation .navbar-default .navbar-nav > .active > a{
+	background-color:#1b75bc;
+}
+
+#primary_navigation .navbar-default .navbar-nav > .open > a, #primary_navigation .navbar-default .navbar-nav > .open > a:hover, #primary_navigation .navbar-default .navbar-nav > .open > a:focus{
+	background-color:#f3f3f3;
+	color:#555;
+	box-shadow:none;
+}
+
+.banner_box
+{
+	margin:15px 0px;
+	border:1px solid #a8dcf1;
+}
+
+#banner{
+	position:relative;
+	z-index:10;
+}
+
+#banner img{
+	width:100%;
+}
+
+.continue_btn{
+    bottom: 84px;
+    position: absolute;
+    right: 17px;
+}
+
+.continue_btn a{
+	/*background:#673391;
+    color:#fff;
+    display:block;
+    font-size:15px;
+	font-weight:bold;
+    padding:10px;
+    text-align:center;
+	width:250px;*/
+	width:250px;
+	display:block;
+	background-color: #E6F6FC;
+    border: 1px solid #0095DA;
+    color: #0095DA ;
+    padding: 10px 10px 10px 7px;
+    font-family: effra, Regular;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 1.42857143;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.continue_btn a:hover{
+	/*color:#fff;
+	background:#8155A6;
+	text-decoration:none;*/
+	background-color: #0095DA;
+	  color: #fff ;
+	  text-decoration:none;
+}
+
+#phishing_message{
+	/* border:1px solid #dcdcdc;
+	padding:15px 0; */
+	padding: 12px 20px 12px 20px;
+    background-color: #fff;
+}
+
+.phishing_box{
+	background: #fff;
+    border: 1px solid #dcdcdc;
+    position: relative;
+}
+
+
+	.accept, .reject {
+		display: inline-block;
+		height: 45px;
+		left: 24px;
+		position: absolute;
+		top: 14px;
+		width: 44px;
+	}
+
+
+.accept{
+	background: url('../images/green_smiley.png') no-repeat 0 0;
+}
+
+.reject{
+	background: url('../images/red_smiley.png') no-repeat 0 0;
+}
+.phishing_box p, .phishing_cardGreen p, .phishing_cardRed P {
+	font-size: 11px;
+    text-align: left;
+    color: #506070;
+    /* margin: 20px 0; */
+    padding: 19px 9px 14px 53px;
+}
+.phishing_box h3{
+	background:rgb(215,215,215);
+	padding:13px 0;
+	margin:0 0 0 0px;
+	font-size:16px;
+	text-align:center;
+	font-weight:normal;
+}
+.phishing_cardRed {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    background-color: #fffafa;
+}
+.never{
+	color:rgb(237,28,36);
+	font-size: 16px !important;
+}
+
+.always{
+	color:rgb(81,160,55);
+	font-size: 16px !important;
+}
+
+.phishing_box p{
+	text-align:center;
+	color:#444;
+	margin:20px 0;
+}
+
+/*.own_head::after{
+	background: #00a9e0;
+    content: "";
+    display: block;
+    height: 2px;
+    margin: 10px auto 0;
+    width: 60px;
+}
+*/
+.own_head{
+	/* margin:10px 0;
+	color:#00a9e0;
+	font-size:18px;
+	text-align:center;
+	margin:15px 0;
+	padding:0; */
+	margin: 5px 0 15px 0;
+    color: #652A84;
+    font-size: 18px;
+    text-align: center;
+    padding: 0;
+    font-weight: bold;
+}
+
+#phishing_contents{
+	background:#fff;
+	/*padding:12px 0;*/
+}
+
+#phishing_contents h3{
+	background:#652A84;
+	color:#fff;
+	padding:7px;
+	margin:0;
+	font-size:15px;
+	font-weight:bold;
+}
+
+.phishing_list{
+	margin:0 0 0 5px;
+	padding:0;
+	list-style:none;
+}
+
+.phishing_list li {
+    background:url("../images/list_arrow_yono.html") no-repeat 0 4px;
+    
+	color: rgb(80, 96, 112);
+    line-height: 18px;
+    font-size: 13px;
+    
+    margin: 4px 0px;
+    padding: 4px 0px 4px 27px;
+}
+
+.phishing_list li a{
+	color:rgba(0, 169, 224, 1) !important;
+}
+
+#terms_area{
+	padding:12px 0;
+}
+
+.terms{
+    background:rgb(181,216,255);
+    color:#555;
+	border:1px solid #bdc8d4;
+	display: flex;
+	align-items: center;
+}
+
+.terms p{
+	padding:10px 0;
+	margin:0;
+}
+
+.cont_btn_bottom{
+	/*background-color: #673391;*/
+	text-align: center;
+	padding:3px 0px;
+}
+
+.cont_btn_bottom:hover{
+	/*background:#8155A6;*/
+}
+.terms a {
+	border: 1px solid #0095DA;
+    color: #0095DA;
+    padding: 5px 5px 5px 3px;
+    font-family: effra, Regular;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 1.42857143;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 4px;
+    background: #e5f6fd;
+}
+
+.terms a:hover{
+	background-color: #0095DA;
+    color: #fff;
+	text-decoration: none;
+}
+
+.login_heading {
+    background: #fff;
+	overflow:hidden;
+    /*margin: 12px 0 0;*/
+	color:#652a84;
+}
+
+.login_heading h3{
+	padding:0;
+	margin:10px 0;
+	font-size:18px;
+	font-weight:bold;
+}
+
+.login_heading span{
+    background:url("../images/banner_arrow.png") no-repeat scroll 806px 0;
+	display:block;
+	padding:7px 40px 0 0;
+	font-weight:bold;
+	text-align:right;
+	height:35px;
+}
+
+#login_fields{
+	background:#fff;
+	overflow:hidden;
+}
+
+.user_details{
+	border-right:1px solid #e3e3e3;
+	padding-right:0;
+}
+
+.user_details p{
+	margin:10px 0;
+}
+
+.user_details span {
+    color:#c33a1a;
+    font-weight:bold;
+}
+
+#login_fields .form-group{
+	overflow:hidden;
+	margin-bottom:12px;
+}
+
+.form-fields { 
+	margin:15px 0px;
+}
+.info-txt {
+	line-height: 30px;
+}
+#login_fields .form-group label{
+	display:block;
+	padding:5px 0px 0px 10px;
+}
+.common_btn .btn {
+	background: #f89611 none repeat scroll 0 0;
+    color: #fff;
+    padding: 3px 10px;
+	border:none;
+}
+#login_fields .form-control{
+	background:#f1f1f1;
+    border:1px solid #ccc;
+    padding:5px;
+	border-radius:0;
+	box-shadow:none;
+	height:auto;
+}
+
+.user_details .btn {
+    color:#fff;
+    padding:5px 13px;
+	margin:0 5px 0 0;
+}
+.user_details .btn-default {
+    /*background:#673391;
+    border:0 none;
+	border-radius:0;*/
+	background-color: #E6F6FC;
+	border:1px solid #0095DA ;
+	color: #0095DA  !important;
+	padding: 7px 7px 7px 7px ;
+	font-family: effra, Regular;
+	text-transform: uppercase;
+	font-weight: normal ;
+}
+.user_details .btn-default:hover {
+    /* background: #EF7D11;
+    color: #FFF;*/background-color: #0095DA;
+	  color: #fff !important; }
+	  
+.user_links {
+  	display: inline-block;
+	height: 115px;
+}
+
+.user_links li{
+	margin:17px 0;
+}
+
+.user_links li a{
+	display:block;
+}
+
+.forgot_details{
+	padding-right:0;
+}
+
+.virtual{
+	background:url('../images/virtual.png') no-repeat right 0;
+	height:50px;
+	overflow:hidden;
+}
+
+.virtual p{
+	margin:15px 0 0 50px;
+}
+
+.virtual_link{
+	background:#f2f6f7;
+	padding:10px;
+	clear:both;	
+}
+
+.virtual_link p{
+	margin:0;
+}
+.login_box.glyphicon-ok-circle::before {
+    content: "\e089";
+}
+.login_box.glyphicon-link::before {
+    content: "\e144";
+}
+.login_box.glyphicon-info-sign::before {
+    content: "\e086";
+}
+#login_container{
+	margin:15px 0;
+	overflow:hidden;
+	background:#F3F6F7;
+}
+
+#login_area{
+	background:#fff;
+}
+
+.login_box{
+	background:#fafafa;
+    border:1px solid #eee;
+	margin:15px 0;
+    padding:20px 30px;
+    text-align:center;
+	min-height:237px;
+}
+
+.login_box p{
+	line-height:26px;
+	margin:10px 0 0;
+	text-align:justify;
+}
+
+.login_box:hover {
+    box-shadow: 0 0 8px #eee;
+}
+
+.login_box_links{
+	list-style:none;
+	margin:10px 25px 0 0;
+	padding:0;
+	overflow:hidden;
+	float:left;
+}
+
+.login_box_links li {
+	margin:3px 0;
+	padding:5px 0 0;
+	border-bottom:1px dotted #cecece;
+}
+
+.login_box_links li:last-child {
+    padding-top: 0;
+	border-bottom:0;
+}
+
+.login_box_links li a{
+	display:block;
+    padding:0 0 5px;
+}
+
+.login_box .glyphicon{
+	font-size:32px;
+	color:#5553AA;
+	display:block;
+}
+
+#provide_list{
+	background:rgb(181,216,255);
+}
+
+.provide{
+	list-style:square;
+	margin:0 0 0 20px;
+	padding:0;
+}
+
+.provide li{
+	margin:7px 0;
+	padding:0 0 0 10px;
+	color: #555;
+}
+
+/*#login_block {
+    display:none;
+}*/
+
+
+/* Virtual Key Board Starts */
+.vkb_link {padding:5px; color:#2A6097; font:100% Arial, Helvetica, sans-serif; border-top:1px dashed #ccc}
+.vkb_link a{color:#2A6097; text-decoration:none;}
+.vkb_link a:hover{text-decoration:underline;}
+.kbd_heading{font:14px Arial, Helvetica, sans-serif; padding:5px 0px 0px 0px; margin:0px; font-weight:bold; text-align: center; }
+.keyboardtbl {font-family: Arial, Helvetica, sans-serif; margin:0px; padding:0px;border-collapse: separate !important;border-spacing: 0;}
+.keyboardtblenb {padding:9px; background:#F0F5F7;text-align:center; cursor:pointer; font-weight:bold; vertical-align:middle; border:1px solid #377292;font-size: 11px; }
+.keyboardtbldis {padding:3px 8px 3px 8px; background-color:#edf2f2;text-align:center; vertical-align:middle; border:1px solid #d9d8d8; color:#929290; font-weight:bold}
+.vkb_login_heading{ font:100% Arial, Helvetica, sans-serif;}
+.vkb_login_heading span{color:#407CB9; font-size: 14px; font-weight:bolder; margin:0px; padding:0px}
+.vkb_tbl{font:80% Arial, Helvetica, sans-serif; vertical-align:top; margin:0px; padding:2px}
+.vkb_tbl td{padding:4px 2px 2px 2px;}
+#vkb_content{color:#36505E;}
+.vkb_aligntop{vertical-align:top; padding:4px 6px 0px 5px;}
+.vkb_loginsublinks{color:#003399;font:80% Arial,Helvetica,sans-serif;padding-bottom:6px}
+.vkb_loginsublinks a{text-decoration:underline}
+.vkb_errormsg{color:red;font-weight:bold}
+.keyboardtbl td {margin:0px 5px;}
+.login_btn_cred .Button1 {background: url("../images/button_bg.html") no-repeat scroll 0 0 #fff;border: 0 none;color: #ffffff;font-weight: bold;height: 36px;line-height:24px;width: 80px;}
+.login_cred input {background:#ededed;border:1px solid #cccccc; width:220px;padding: 5px;}
+.login_cred {float:left;width:254px;line-height: 30px;font-weight: normal;background: url("../images/seprater.html") no-repeat scroll right 0;}
+.keyboardtb_new {margin:0 0 0 15px; }
+.keyboardtb_new  td {border-spacing:7px;}
+.keyboardtb_new td.key_head {font-size:16px;text-align:center;padding:10px 0px 10px 0px;font-weight:bold}
+.spl_txta {color:#c33a1a; font-weight:bold;}
+.kbplaceholder {margin:5px 0 0;}
+#cap, #clr {font-size:11px!important}
+/* Virtual Key Board Ends */
+
+/*----- Footer Section Starts ----- */
+
+#footer_area {
+    background: #3f3f3f none repeat scroll 0 0;
+    border-top: 3px solid #00a9e0;
+    overflow: hidden;
+    padding: 5px;
+}
+#footer p {
+    color: #fff;
+    margin: 10px 0 0;
+}
+
+.footbg{
+	background:#535353;
+	overflow:hidden;
+}
+
+#footer_links {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+#footer_links li {
+    float: left;
+    margin: 0 10px 0 0;
+    padding: 5px 0;
+}
+#footer_links li:last-child {
+    margin-right: 0;
+    background: none;
+}
+#footer_links li a {
+    color: #fff;
+    padding: 0 10px 0 0;
+    margin: 3px 0 0;
+    display: block;
+}
+#footer_links li a:hover {
+    text-decoration: none;
+}
+#best_view {
+    background: #535353 none repeat scroll 0 0;
+    text-align: center;
+}
+#best_view p {
+    font-size: 11px;
+    margin: 0;
+    padding: 5px;
+    color: #eee;
+}
+/*----- Footer Section Ends -----*/
+
+	
+@media (min-width: 768px) and (max-width: 991px){
+
+#navigation li a{
+	padding:10px 22px;
+}
+
+.continue_btn {
+    bottom:45px;
+    right:6px;
+}
+
+.continue_btn a {
+    font-size:13px;
+    padding:7px;
+    width:175px;
+}
+
+#wpanel_vticker ul li{
+	
+	height:50px !important;
+	line-height:20px !important;
+	
+}
+
+.login_heading span {
+background:none;
+padding:13px 0px 0px;
+
+}
+
+.login_heading h3 {
+margin:15px 0px;
+}
+#wpanel_vticker {
+height:50px !important;
+}
+
+.phishing_box p {
+    font-size:11px;
+    margin:15px 0;
+}
+
+.phishing_box h3 {
+    font-size:14px;
+    margin:0 0 0 32px;
+    padding:14px 0;
+}
+
+#phishing_contents h3{
+	font-size:12px;
+}
+
+#navigation li a {
+    padding:8px 16px;
+}
+
+.login_heading h3{
+	font-size:12px;
+}
+
+.user_details p ,#login_fields .form-group label,.user_links li a,.user_details .btn,.virtual p,.virtual_link p,.login_box p,.login_box_links li a,.provide li,footer p,#footer_links li a,#forms li a {
+    font-size:11px;
+}
+
+.virtual {
+    background:url("../images/virtual.png") no-repeat -1px 0;
+}
+
+.virtual p {
+    margin:15px 0 0 22px;
+}
+
+.login_box .glyphicon{
+	font-size:26px;
+}
+
+.login_box {
+    margin:10px 0;
+    min-height:206px;
+    padding:12px 5px;
+}
+
+.login_box p{
+	line-height:18px;
+}
+
+.login_box_links {
+    margin: 10px 2px 0 0;
+}
+
+.provide li{
+	padding:0 0 0 5px;
+}
+
+.keyboardtb_new td.key_head {
+    font-size:12px;
+    padding:5px 0;
+}
+
+.keyboardtb_new {
+    margin:0 0 0 10px;
+}
+
+#keypad img{
+	height:247px;
+}
+		
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+
+.continue_btn {
+    bottom:25px;
+    right:50px;
+}
+
+.login_box p{
+	line-height:20px;
+}
+
+.login_box_links {
+    margin: 10px 10px 0 0;
+}
+
+.login_box {
+    min-height:230px;
+    padding:12px 15px;
+}
+
+.virtual {
+    background:url("../images/virtual.png") no-repeat -1px 0;
+}
+
+
+}
+		
+@media (min-width: 320px) and (max-width: 767px){
+	.err_mssg{
+		margin:0px !important;
+		
+	}
+	.accept, .reject
+	{
+		top: 6px !important;
+	}
+	.terms
+	{
+		display: block;
+	}
+#headerContent span#logo
+{
+	margin:0px auto;
+}
+#logo{
+	/*background-position: -168px -17px;
+	width:90px;*/
+	height:45px;
+}
+
+#wpanel_vticker {
+	height:45px !important;
+}
+
+#wpanel_vticker ul {
+	width:100% !important;
+}
+#wpanel_vticker ul li {
+    height: 38px !important;
+	line-height:16px !important;
+}
+.login_heading {
+    text-align: center;
+}
+#osbi_logo{
+	background-position: -227px -92px;
+	width:59px;
+	height:40px;
+}
+
+#header_navigation{
+	margin:10px 10px 0 0;
+}
+
+#forms li{
+	margin:0 5px 0 0;
+}
+
+#forms li a{
+	margin:0 5px 0 0;
+	font-size:11px;
+}
+
+#primary_navigation .navbar-default .navbar-toggle .icon-bar{
+	background-color:#fff;
+}
+
+#primary_navigation .navbar-default .navbar-toggle:hover, #primary_navigation .navbar-default .navbar-toggle:focus{
+	background:none;
+}
+
+#primary_navigation .navbar-toggle{
+	float:left;
+	margin-left:10px;
+	border-radius:0;
+}
+
+#primary_navigation .navbar-default .navbar-toggle{
+	border:0;
+}
+
+#navigation li{
+	float:none;
+}
+
+#navigation li a{
+	text-align:left;
+	padding:9px 18px;
+}
+
+.arrow_icon{
+	background:#005292;
+	padding:13px 12px;
+}
+
+.arrow:hover,.arrow:focus{
+	outline:none;
+}
+
+.arrow{
+	width:23px;
+	height:23px;
+	display:block;
+	text-decoration:none;
+	outline:none;
+}
+
+.arrow_up{
+	background-position: -327px -15px;
+}
+
+.arrow_down{
+	background-position: -326px -67px;
+}
+
+#header_navigation{
+	display:none;
+}
+
+.continue_btn{
+	position:static;
+	padding: 10px 10px 10px 24px;
+}
+
+.phishing_box{
+	margin:0 0 12px;
+}
+
+.last_box{
+	margin:0 !important;
+}
+
+.user_links li {
+    margin:10px 0;
+}
+
+.virtual p {
+    position:absolute;
+    right:60px;
+}
+
+#keypad img{
+	width:100%;
+}
+
+.login_box_links {
+    margin: 10px 10px 0 0;
+}
+
+.login_box_links li a,.login_box p,.provide li,footer p{
+	font-size:11px;
+}
+
+.login_box {
+    min-height:230px;
+}
+
+.login_box p{
+	line-height:22px;
+}
+
+.keyboardtblenb{
+	padding:6px 7px;
+}
+
+.keyboardtb_new td.key_head {
+    font-size:13px;
+}
+
+.login_xs{
+	width: 250px;
+	margin: 0 auto;
+}
+
+}
+/*Old browsers alert Box starts*/
+
+.overlay {
+    width: 100%;
+    height: 722px;
+    background: #999999;
+    z-index: 10000;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+    top: 0px;
+    left: 0;
+    position: fixed;
+    display: none;
+    overflow: hidden;
+}
+.ie6_alertbox {
+    z-index: 100001;
+    background: #fff;
+    top: 170px;
+    /*right:0px;
+	margin-right: -741px;*/
+    
+    left: 30%;
+    right: 30%;
+    width: 40%;
+    position: absolute;
+    display: none;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px #888888;
+}
+.alertbox_icon_container {
+    padding: 20px 10px;
+    width: 100%;
+    float: left;
+}
+.alertbox_logo {
+    background: url("../images/browser_logo.html") no-repeat center;
+    width: 100%;
+    height: 55px;
+    display: inline-block;
+}
+.alertbox_icon {
+    background: url("../images/ie6_icon.html") no-repeat;
+    width: 100%;
+    height: 106px;
+    margin: 45px 0 0 40px;
+    display: inline-block;
+}
+.alertbox_content {
+    width: 100%;
+    padding: 10px;
+    float: left;
+}
+.alertbox_content p {
+    font-size: 12px;
+}
+.alertbox_close {
+    background: url("../images/ie6_close.html") no-repeat;
+    width: 68px;
+    height: 28px;
+    margin-top: -35px;
+    float: right;
+}
+.link_for_ie {
+    color: #027f9f;
+    padding: 10px 0 10px 0;
+    display: inline-block;
+}
+.square_list {
+    list-style-type: square;
+}
+.browsers li {
+    float: left;
+    margin-right: 25px;
+    list-style-type: none;
+}
+
+.modal-header,.modal-body{
+	padding:5px 15px;
+}
+/*Old browsers alert Box ends*/	
+
+#wpanel_vticker ul{
+	width:90%;
+	text-align: center;
+	list-style-type: none;
+}
+#wpanel_vticker ul li{
+	box-sizing: border-box;
+    color: #DB3C38;
+    font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
+	font-size: 13px;
+	line-height: 31px;
+	height:31px;
+	
+}
+#wpanel_vticker ul li a
+{
+	color: #198379;
+}
+.vertical_center {
+	display: flex;
+	align-items: center;
+}
+.net_branch .modal-dialog{
+	margin:10% auto;
+}
+.net_branch .modal-header{
+	padding:5px 15px 0px 15px;
+}
+.login_heading span.newIcon {
+	background: url('../images/new.png') no-repeat;
+	height:20px !important;
+	margin:5px 0px 0px;
+		
+}
+#wpanel_vticker {
+padding:0px 0px 10px 0px;
+}
+.err_mssg{
+	display:none;
+	position: absolute;
+	margin-top:10px;
+	font-weight:bold;
+	text-align:center;
+	background: #fff7e7;
+	
+	border-radius:5px;
+	padding:5px;
+	color:red;
+	left:17%;
+	z-index:1;
+	border:solid 1px #dbd0ba;
+	max-width:72%;
+}
+.care_msg{
+	padding:0px;
+}
+#dummy {
+		display: none;
+	}
+	#features{
+		    background: rgba(0, 0, 0, 0) url("../images/features.png") no-repeat scroll 0 -2px;
+			bottom: 0;
+			color: #0071a5;
+			height: 40px;
+			padding: 15px 0 15px 78px;
+			position: absolute;
+			right: 0;
+			width: 155px;
+	}
+
+/* Marquee Starts */	
+	.wpanel_marquee {
+    box-sizing: border-box;
+   /* color: #db3c38;*/
+    font-weight: bold;
+    margin: 12px 0 0;
+    overflow: hidden;
+    white-space: nowrap;
+    height: 28px;
+}
+.wpanel_marquee p {
+    animation: 30s linear 0s normal none infinite running marquee;
+    display: inline-block;
+    padding-left: 100%;
+}
+@keyframes marquee {
+0% {
+    transform: translate(0px, 0px);
+}
+100% {
+    transform: translate(-100%, 0px);
+}
+}
+.wpanel_marquee p:hover {
+    animation-play-state: paused;
+}
+/* Marquee Ends */
+
+.border-box {
+    border: 1px solid #d8d8d8;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.info_panel {
+	border: medium none;
+	border-radius: 3px;
+	box-shadow: 0 3px 4px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.11);
+	background: #fcf5e9 none repeat scroll 0 0;
+margin: 0 0 10px;
+overflow: hidden;
+padding: 12px;
+}
+.notify_icon {
+    background: rgba(0, 0, 0, 0) url("../images/notify.png") no-repeat scroll left center;
+    line-height: 24px;
+    padding: 8px 0 8px 35px;
+}
+.notify_icon ul, .no_marg {
+    margin: 0;
+	line-height: 2;
+}
+.spl_txt{
+	color:#c33a1a;
+}
+.wpanel_marquee p{
+	font-weight:normal;
+}
+.login-details-block {
+	height: 115px;
+	display: inline-block;
+}
+.phishing_listBorder{
+	min-height: 250px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(101, 42, 132);
+    border-image: initia
+}
+
+.phishing_cardGreen {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    background-color: #f7f9f7;
+}
+
+#vkb_content {
+    color: #652a84;
+    padding: 10px;
+	margin: 10px;
+}
+.keyboardtb_new {
+    margin: 10px;
+}
+
+.keyboardtb_new td.key_head {
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    font-weight: bold;
+    background-color: #F0F5F7;
+    border: 1px solid #652a84;
+}
+.keyboardtb_new td {
+    border-spacing: 7px;
+}
+
+.keyboardtblenb {
+    padding: 9px;
+    background: #F0F5F7;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    vertical-align: middle;
+    border: 1px solid #652a84;
+    font-size: 11px;
+}
+
+#cap, #clr {
+    font-size: 11px!important;
+}
+.bg-enable-key {
+    background: rgba(9, 142, 209, 0.5);
+    margin: -20px -35px -30px -40px;
+    height: 350px;
+}
+	
+.vkb_key_blur {
+    color: #652a84;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 0px -15px 0px -15px;
+    height: 350px;
+}	

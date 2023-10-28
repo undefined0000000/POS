@@ -1,0 +1,57 @@
+E:\Digital\NewOP\Newop\Database\bin\Debug\Database.dll.config
+E:\Digital\NewOP\Newop\Database\bin\Debug\Database.dll
+E:\Digital\NewOP\Newop\Database\bin\Debug\Database.pdb
+E:\Digital\NewOP\Newop\Database\bin\Debug\EntityFramework.dll
+E:\Digital\NewOP\Newop\Database\bin\Debug\HtmlAgilityPack.dll
+E:\Digital\NewOP\Newop\Database\bin\Debug\EntityFramework.xml
+E:\Digital\NewOP\Newop\Database\obj\Debug\Database.dll
+E:\Digital\NewOP\Newop\Database\obj\Debug\Database.pdb
+E:\Digital\SourceCode\newop\Database\bin\Debug\Database.dll.config
+E:\Digital\SourceCode\newop\Database\bin\Debug\Database.dll
+E:\Digital\SourceCode\newop\Database\bin\Debug\Database.pdb
+E:\Digital\SourceCode\newop\Database\bin\Debug\EntityFramework.dll
+E:\Digital\SourceCode\newop\Database\bin\Debug\HtmlAgilityPack.dll
+E:\Digital\SourceCode\newop\Database\bin\Debug\EntityFramework.xml
+E:\Digital\SourceCode\newop\Database\obj\Debug\Database.csprojResolveAssemblyReference.cache
+E:\Digital\SourceCode\newop\Database\obj\Debug\Database.dll
+E:\Digital\SourceCode\newop\Database\obj\Debug\Database.pdb
+E:\Digital\SourceCode\opr\Database\bin\Debug\Database.dll.config
+E:\Digital\SourceCode\opr\Database\bin\Debug\Database.dll
+E:\Digital\SourceCode\opr\Database\bin\Debug\Database.pdb
+E:\Digital\SourceCode\opr\Database\bin\Debug\EntityFramework.dll
+E:\Digital\SourceCode\opr\Database\bin\Debug\HtmlAgilityPack.dll
+E:\Digital\SourceCode\opr\Database\bin\Debug\EntityFramework.xml
+E:\Digital\SourceCode\opr\Database\obj\Debug\Database.dll
+E:\Digital\SourceCode\opr\Database\obj\Debug\Database.pdb
+E:\Digital\SourceCode\opr\Database\obj\Debug\Database.csprojResolveAssemblyReference.cache
+E:\DigitalEdgeSol\opr\Database\bin\Debug\Database.dll.config
+E:\DigitalEdgeSol\opr\Database\bin\Debug\Database.dll
+E:\DigitalEdgeSol\opr\Database\bin\Debug\Database.pdb
+E:\DigitalEdgeSol\opr\Database\bin\Debug\EntityFramework.dll
+E:\DigitalEdgeSol\opr\Database\bin\Debug\HtmlAgilityPack.dll
+E:\DigitalEdgeSol\opr\Database\bin\Debug\EntityFramework.xml
+E:\DigitalEdgeSol\opr\Database\obj\Debug\Database.csprojResolveAssemblyReference.cache
+E:\DigitalEdgeSol\opr\Database\obj\Debug\Database.dll
+E:\DigitalEdgeSol\opr\Database\obj\Debug\Database.pdb
+D:\Drive E\DigitalEdgeSol\opr\Database\bin\Debug\Database.dll.config
+D:\Drive E\DigitalEdgeSol\opr\Database\bin\Debug\Database.dll
+D:\Drive E\DigitalEdgeSol\opr\Database\bin\Debug\Database.pdb
+D:\Drive E\DigitalEdgeSol\opr\Database\bin\Debug\EntityFramework.dll
+D:\Drive E\DigitalEdgeSol\opr\Database\bin\Debug\HtmlAgilityPack.dll
+D:\Drive E\DigitalEdgeSol\opr\Database\bin\Debug\EntityFramework.xml
+D:\Drive E\DigitalEdgeSol\opr\Database\obj\Debug\Database.csprojResolveAssemblyReference.cache
+D:\Drive E\DigitalEdgeSol\opr\Database\obj\Debug\Database.dll
+D:\Drive E\DigitalEdgeSol\opr\Database\obj\Debug\Database.pdb
+D:\DigitalEdge\OpPOS\opr\Database\bin\Debug\Database.dll.config
+D:\DigitalEdge\OpPOS\opr\Database\bin\Debug\Database.dll
+D:\DigitalEdge\OpPOS\opr\Database\bin\Debug\Database.pdb
+D:\DigitalEdge\OpPOS\opr\Database\bin\Debug\EntityFramework.dll
+D:\DigitalEdge\OpPOS\opr\Database\bin\Debug\HtmlAgilityPack.dll
+D:\DigitalEdge\OpPOS\opr\Database\bin\Debug\EntityFramework.xml
+D:\DigitalEdge\OpPOS\opr\Database\obj\Debug\Database.dll
+D:\DigitalEdge\OpPOS\opr\Database\obj\Debug\Database.pdb
+D:\DigitalEdge\OpPOS\opr\Database\obj\Debug\Database.csprojResolveAssemblyReference.cache
+D:\workstation\111\opr\Database\obj\Debug\Database.csproj.AssemblyReference.cache
+D:\workstation\111\opr\Database\obj\Debug\Database.csproj.CoreCompileInputs.cache
+D:\workstation\111\opr\Database\obj\Debug\Database.dll
+D:\workstation\111\opr\Database\obj\Debug\Database.pdb

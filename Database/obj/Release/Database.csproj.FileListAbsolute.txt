@@ -1,0 +1,18 @@
+E:\DigitalEdgeSol\opr\Database\bin\Release\Database.dll.config
+E:\DigitalEdgeSol\opr\Database\bin\Release\Database.dll
+E:\DigitalEdgeSol\opr\Database\bin\Release\Database.pdb
+E:\DigitalEdgeSol\opr\Database\bin\Release\EntityFramework.dll
+E:\DigitalEdgeSol\opr\Database\bin\Release\HtmlAgilityPack.dll
+E:\DigitalEdgeSol\opr\Database\bin\Release\EntityFramework.xml
+E:\DigitalEdgeSol\opr\Database\obj\Release\Database.csprojResolveAssemblyReference.cache
+E:\DigitalEdgeSol\opr\Database\obj\Release\Database.dll
+E:\DigitalEdgeSol\opr\Database\obj\Release\Database.pdb
+D:\Drive E\DigitalEdgeSol\opr\Database\bin\Release\Database.dll.config
+D:\Drive E\DigitalEdgeSol\opr\Database\bin\Release\Database.dll
+D:\Drive E\DigitalEdgeSol\opr\Database\bin\Release\Database.pdb
+D:\Drive E\DigitalEdgeSol\opr\Database\bin\Release\EntityFramework.dll
+D:\Drive E\DigitalEdgeSol\opr\Database\bin\Release\HtmlAgilityPack.dll
+D:\Drive E\DigitalEdgeSol\opr\Database\bin\Release\EntityFramework.xml
+D:\Drive E\DigitalEdgeSol\opr\Database\obj\Release\Database.dll
+D:\Drive E\DigitalEdgeSol\opr\Database\obj\Release\Database.pdb
+D:\Drive E\DigitalEdgeSol\opr\Database\obj\Release\Database.csprojResolveAssemblyReference.cache

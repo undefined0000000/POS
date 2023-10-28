@@ -1,0 +1,15 @@
+D:\workstation\111\opr\Classes\bin\Debug\Classes.dll
+D:\workstation\111\opr\Classes\bin\Debug\Classes.pdb
+D:\workstation\111\opr\Classes\bin\Debug\Database.dll
+D:\workstation\111\opr\Classes\bin\Debug\EntityFramework.dll
+D:\workstation\111\opr\Classes\bin\Debug\HtmlAgilityPack.dll
+D:\workstation\111\opr\Classes\bin\Debug\VisualStudio.SpellChecker.Definitions.dll
+D:\workstation\111\opr\Classes\bin\Debug\Database.pdb
+D:\workstation\111\opr\Classes\bin\Debug\Database.dll.config
+D:\workstation\111\opr\Classes\bin\Debug\EntityFramework.xml
+D:\workstation\111\opr\Classes\bin\Debug\VisualStudio.SpellChecker.Definitions.xml
+D:\workstation\111\opr\Classes\obj\Debug\Classes.csproj.AssemblyReference.cache
+D:\workstation\111\opr\Classes\obj\Debug\Classes.csproj.CoreCompileInputs.cache
+D:\workstation\111\opr\Classes\obj\Debug\Classes.csproj.CopyComplete
+D:\workstation\111\opr\Classes\obj\Debug\Classes.dll
+D:\workstation\111\opr\Classes\obj\Debug\Classes.pdb

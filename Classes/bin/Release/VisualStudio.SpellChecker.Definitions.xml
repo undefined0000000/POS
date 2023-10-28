@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VisualStudio.SpellChecker.Definitions</name>
+    </assembly>
+    <members>
+        <member name="T:VisualStudio.SpellChecker.Definitions.ISpellingIssue">
+            <summary>
+            This represents a spelling issue such as a misspelled word, doubled word, etc.
+            </summary>
+        </member>
+        <member name="P:VisualStudio.SpellChecker.Definitions.ISpellingIssue.MisspellingType">
+            <summary>
+            This read-only property returns the misspelling type
+            </summary>
+        </member>
+        <member name="P:VisualStudio.SpellChecker.Definitions.ISpellingIssue.Word">
+            <summary>
+            This read-only property returns the misspelled or doubled word
+            </summary>
+        </member>
+        <member name="P:VisualStudio.SpellChecker.Definitions.ISpellingIssue.Suggestions">
+            <summary>
+            This read-only property is used to get suggestions that can be used to replace the misspelled word
+            </summary>
+        </member>
+        <member name="T:VisualStudio.SpellChecker.Definitions.MisspellingType">
+            <summary>
+            This enumerated type defines the misspelling types
+            </summary>
+        </member>
+        <member name="F:VisualStudio.SpellChecker.Definitions.MisspellingType.MisspelledWord">
+            <summary>
+            A misspelled word
+            </summary>
+        </member>
+        <member name="F:VisualStudio.SpellChecker.Definitions.MisspellingType.DoubledWord">
+            <summary>
+            A doubled word
+            </summary>
+        </member>
+        <member name="F:VisualStudio.SpellChecker.Definitions.MisspellingType.DeprecatedTerm">
+            <summary>
+            A deprecated term from a code analysis dictionary
+            </summary>
+        </member>
+        <member name="F:VisualStudio.SpellChecker.Definitions.MisspellingType.CompoundTerm">
+            <summary>
+            A compound term from a code analysis dictionary
+            </summary>
+        </member>
+        <member name="F:VisualStudio.SpellChecker.Definitions.MisspellingType.UnrecognizedWord">
+            <summary>
+            An unrecognized word from a code analysis dictionary
+            </summary>
+        </member>
+        <member name="T:VisualStudio.SpellChecker.Definitions.INaturalTextTag">
+            <summary>
+            This represents a tag for natural text regions
+            </summary>
+        </member>
+        <member name="T:VisualStudio.SpellChecker.Definitions.ISpellingService">
+            <summary>
+            This is used to retrieve the spelling service
+            </summary>
+            <preliminary>This interface is under development and may be expanded in the future to provide more access
+            to necessary spell checker features.</preliminary>
+            <example>
+            This is a MEF component, and should be imported with the following code:
+            <code language="cs">
+            [Import]
+            private ISpellingService spellingService = null;
+            </code>
+            </example>
+        </member>
+        <member name="M:VisualStudio.SpellChecker.Definitions.ISpellingService.IsEnabled(Microsoft.VisualStudio.Text.ITextBuffer)">
+            <summary>
+            This is used to see if spell checking is enabled for the given text buffer
+            </summary>
+            <param name="buffer">The text buffer to check</param>
+            <returns>True if enabled, false if not</returns>
+        </member>
+        <member name="T:VisualStudio.SpellChecker.Definitions.ISpellingSuggestion">
+            <summary>
+            This represents a spelling suggestion that can be used to replace a misspelled word
+            </summary>
+        </member>
+        <member name="P:VisualStudio.SpellChecker.Definitions.ISpellingSuggestion.Culture">
+            <summary>
+            This read-only property returns the culture information for the suggestion
+            </summary>
+        </member>
+        <member name="P:VisualStudio.SpellChecker.Definitions.ISpellingSuggestion.Suggestion">
+            <summary>
+            This read-only property returns the suggested replacement word
+            </summary>
+        </member>
+    </members>
+</doc>
